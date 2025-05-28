@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the Naive Bayes model
-model = pickle.load(open(r'C:\Users\rinis\OneDrive\Desktop\naive_bayes_model.pkl', 'rb'))
+model = pickle.load(open('naive_bayes_model.pkl', 'rb'))
 
 
 # App title
